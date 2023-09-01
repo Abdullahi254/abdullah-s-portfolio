@@ -41,7 +41,7 @@ function Navbar() {
       <div className='flex justify-between items-center w-full h-full px-2 md:px-4 lg:px-8 2xl:px-16'>
         <Link href="/">
           <div className='cursor-pointer h-full py-[10px]'>
-            <Image src={logo} alt="Abdullah logo" width="90" height="70" />
+            <Image src={logo} alt="Abdullah logo" width="90" height="70" priority/>
           </div>
         </Link>
         <div>
@@ -76,7 +76,7 @@ function Navbar() {
           <div>
             <div className='flex justify-between w-full items-center'>
               <div>
-                <Image src={logo} alt="My logo" width={90} height={70} className='cursor-pointer' />
+                <Image src={logo} alt="My logo" width={90} height={70} className='cursor-pointer' priority/>
               </div>
               <div className='cursor-pointer rounded-full shadow-lg shadow-gray-400 p-3'>
                 <AiOutlineClose size={20} onClick={handleNav} />

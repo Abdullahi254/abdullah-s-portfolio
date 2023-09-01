@@ -8,7 +8,7 @@ function Login() {
         <div className="flex h-screen w-screen justify-start flex-col">
             <div className="m-auto my-8 w-full md:w-3/4 max-w-2xl  flex flex-col justify-center shadow-2xl rounded-md">
                 <div className='m-auto pt-3 mt-2'>
-                    <Image width={100} height={80} layout="intrinsic" src={logo} alt="LOGO image" />
+                    <Image width={100} height={80} layout="intrinsic" src={logo} alt="LOGO image" priority/>
                 </div>
                 <div className='m-auto my-4'>
                     <p className='text-xl md:text-2xl font-semibold'>

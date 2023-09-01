@@ -28,7 +28,7 @@ function About() {
 
         </div>
         <div className='shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
-          <Image className='rounded-xl' src={compImage} alt="/" />
+          <Image className='rounded-xl' src={compImage} alt="/" priority/>
         </div>
       </div>
     </div>

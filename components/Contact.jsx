@@ -14,7 +14,7 @@ function Contact() {
                 <div className='grid md:grid-cols-2 gap-8 h-[70%]'>
                     <div className='shadow-xl rounded-xl shadow-gray-400 p-4 hover:scale-105 ease-in duration-300 h-full flex flex-col justify-between'>
                         <div className='w-full mb-[150px] lg:mb-0'>
-                            <Image src={contactImg} alt="/" />
+                            <Image src={contactImg} alt="/" priority/>
                             <h2 className='py-4 px-2'>Abdullahi Mohamud</h2>
                             <p className='uppercase text-sm tracking-wider px-2 mb-4'>Front-End Developer</p>
                             <p className='px-2'>
