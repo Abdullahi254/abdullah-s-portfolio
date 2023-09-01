@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import contactImg from '../public/assets/contact.avif'
+import contactImg from '../public/assets/contact.jpg'
 import { AiOutlineMail } from 'react-icons/ai'
 import { FaLinkedinIn, FaGithub, } from 'react-icons/fa'
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi'

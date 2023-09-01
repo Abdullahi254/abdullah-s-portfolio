@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import compImage from '../public/assets/comp-img.avif'
+import compImage from '../public/assets/comp-img.jpg'
 import Link from 'next/link'
 function About() {
   return (
