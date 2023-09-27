@@ -2,12 +2,15 @@ import React from 'react'
 import ProjectItem from './ProjectItem'
 import salesImg from '../public/assets/projects/Sales.png'
 import ecommerceImg from '../public/assets/projects/Ecommerce.png'
-import portImg from '../public/assets/projects/Portfolio.png'
+import fishImg from '../public/assets/projects/project_fish.PNG'
+import truckImg from '../public/assets/projects/watiti.PNG'
 
 const ImageList = [
+    { title: 'Fish Batch Record System', language: 'Next Js, Typescript, Tailwind, Prisma, PlanetScale ', image: fishImg, link: '/Fish' },
+    { title: 'Truck Tracking System.', language: 'Next Js, Tailwind, firebase,', image: truckImg, link: '/Track' },
     { title: 'Sales System', language: 'React Js, Firebase', image: salesImg, link: '/SalesSystem' },
-    { title: 'My Portfolio', language: 'Next Js', image: portImg, link: '/' },
-    { title: 'Ecommerce System', language: 'React Js, MongoDB, Node', image: ecommerceImg, link: '/Ecommerce' }]
+    { title: 'Ecommerce System', language: 'Next Js, Typescript, Tailwind, Graphql, Hypergraph', image: ecommerceImg, link: '/Ecommerce' },
+]
 
 function Projects() {
     return (

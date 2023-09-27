@@ -11,7 +11,7 @@ function SalesSystem() {
                 <Image src={salesImg} alt="/" layout='fill' objectFit='cover' className='absolute z-1' />
                 <div className='absolute top-[50%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] transalte-y-[-50%] text-white z-20 p-2'>
                     <h2 className='py-2 uppercase'>Gaming Sales System</h2>
-                    <h3>React JS/ Material UI/ Firestore   </h3>
+                    <h3 className='px-2'>Sales</h3>
                 </div>
             </div>
 
@@ -20,10 +20,15 @@ function SalesSystem() {
                     <p className='uppercase text-xl tracking-widest text-[#5651e5] px-2'>Project</p>
                     <h2 className='py-4 px-2'>Overview</h2>
                     <p className='p-2 mb-4'>
-                        The system will provide a customer with a QR ticket that has a timestamp on when they have started gaming. The idea is to calculate the amount a person has to pay using the respective time they have played.
-                        The gaming lounge owner/manager has the freedom to choose their own rate per minute. After finishing playing, the gamer can scan the ticket and pay using the application. This will help make the managers work less tedious and give the customer a better gaming experience.
 
+                        The proposed system is designed to streamline the gaming experience for both customers and gaming lounge owners. It issues QR tickets to customers with a timestamp indicating when they start gaming. The key features of this system include:
                     </p>
+                    <ol className='py-2 px-4 text-sm mb-2'>
+                        <li className='list-disc py-1 tracking-wide'><b>Time-Based Billing: </b>The system calculates the gaming charges based on the time a person has played, allowing gaming lounge owners to set their own rate per minute.</li>
+                        <li className='list-disc py-1 tracking-wide'><b>Convenience: </b>Customers can simply scan their QR ticket after finishing their gaming session and use the application to make payment. This eliminates the need for manual calculations and cash transactions, enhancing convenience for both parties.</li>
+                        <li className='list-disc py-1 tracking-wide'><b>Efficiency: </b>By automating the billing process, the system reduces the workload for gaming lounge managers, making their tasks less tedious.</li>
+                        <li className='list-disc py-1 tracking-wide'><b>Improved Customer Experience: </b>Customers benefit from a seamless and hassle-free payment process, contributing to an enhanced gaming experience.</li>
+                    </ol>
                     <Link href="https://github.com/Abdullahi254/gaming-lounge-management-system.git">
                         <div className='px-2'>
                             <button className='py-3 px-5 text-sm rounded-xl hover:scale-110 ease-in duration-300'>code</button>
