@@ -9,7 +9,7 @@ const ImageList = [
     { title: 'Fish Batch Record System', language: 'Next Js, Typescript, Tailwind, Prisma, PlanetScale ', image: fishImg, link: '/Fish' },
     { title: 'Truck Tracking System.', language: 'Next Js, Tailwind, firebase,', image: truckImg, link: '/Track' },
     { title: 'Sales System', language: 'React Js, Firebase', image: salesImg, link: '/SalesSystem' },
-    { title: 'Ecommerce System', language: 'Next Js, Typescript, Tailwind, Graphql, Hypergraph', image: ecommerceImg, link: '/Ecommerce' },
+    { title: 'Ecommerce System', language: 'Next Js, Typescript, Graphql', image: ecommerceImg, link: '/Ecommerce' },
 ]
 
 function Projects() {
