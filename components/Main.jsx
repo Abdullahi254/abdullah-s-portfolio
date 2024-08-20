@@ -17,7 +17,7 @@ function Main() {
                         A Software Engineer
                     </h1>
                     <p className='py-4 text-gray-600 max-w-[70%] m-auto'>
-                        I&apos;m Full-stack Developer specializing in building (and occasionally designing) exceptional digital experiences.
+                        I&apos;m a Full-stack Developer specializing in building (and occasionally designing) exceptional digital experiences.
                         Currently focused on developing responsive front-end applications while deepening expertise in back-end technologies to deliver complete
                         and scalable solutions.
                     </p>
