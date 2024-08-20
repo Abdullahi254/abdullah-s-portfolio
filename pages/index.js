@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Abdullahi | Front-End Developer</title>
+        <title>Abdullahi | Software Engineerr</title>
         <meta name="description" content="Software Engineer in Kenya" />
         <link rel="icon" href="/assets/logo.png" />
       </Head>
