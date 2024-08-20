@@ -9,7 +9,7 @@ export default function Home() {
     <div>
       <Head>
         <title>Abdullahi | Front-End Developer</title>
-        <meta name="description" content="Front-end developer in Kenya" />
+        <meta name="description" content="Software Engineer in Kenya" />
         <link rel="icon" href="/assets/logo.png" />
       </Head>
       <Main />
