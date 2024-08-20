@@ -14,13 +14,12 @@ function Main() {
                         Hi, I&apos;m <span className='text-[#5651e5]'>Abdullahi</span>
                     </h1>
                     <h1 className='py-2 text-gray-700'>
-                        A Front-End Web Developer
+                        A Software Engineer
                     </h1>
                     <p className='py-4 text-gray-600 max-w-[70%] m-auto'>
-                        I&apos;m front-end web developer specializing in building (and
-                        occasionally designing) exceptional digital experiences. Currently,
-                        I&apos;m focused on building responsive front-end web applications while
-                        expanding my skills in back-end technologies.
+                        I&apos;m Full-stack Developer specializing in building (and occasionally designing) exceptional digital experiences.
+                        Currently focused on developing responsive front-end applications while deepening expertise in back-end technologies to deliver complete
+                        and scalable solutions.
                     </p>
                     <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
                         <Link href="https://www.linkedin.com/in/abdullahi-mohamud-aa04291b6/">
